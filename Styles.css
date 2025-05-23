@@ -1,0 +1,93 @@
+<style>
+.login_box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    color: #c7d5e0;
+}
+
+.login_box h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login_box form {
+    width: 50%;
+}
+
+.login_box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login_box input[type="text"],
+.login_box input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #2a3f5a;
+    background: #171a21;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.remember_me {
+    display: flex;
+    align-items: center;
+}
+
+.remember_me input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login_box input[type="submit"] {
+    background: #3d85c6;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login_box input[type="submit"]:hover {
+    background: #4a97d6;
+}
+
+.subtext {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.subtext a {
+    color: #3d85c6;
+}
+
+.qr_code_placeholder {
+    width: 40%;
+    text-align: center;
+}
+
+.qr_label {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.qr_unavailable {
+    background: #2a3f5a;
+    color: #c7d5e0;
+    padding: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.qr_subtext {
+    font-size: 12px;
+    color: #8f98a0;
+}
+</style>
